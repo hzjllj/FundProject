@@ -1,0 +1,162 @@
+@import "@/style/index.scss";
+.page{
+  background-color: $bgColor;
+  height: 100%;
+  margin-bottom: rem(100);
+}
+// .asset-body{
+//   width: 100%;
+//   background-color: $bgColor;
+// }
+.login-box {
+  
+  height: rem(320);
+    z-index: 3;
+    background: #FFFFFF;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.08);
+    // height:100%;
+    width: 100%;
+    top: rem(30);
+    left: rem(75);
+    border-radius: rem(8);
+  }
+.login-padding{
+  padding: rem(16);
+  width: 100%;
+  height: 100%;
+}
+.noLogin-box {
+    color: #6c6c6c;
+    height: 100%;
+    font-size: rem(26);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: rem(30);
+    &-text{
+      margin-top: rem(28);
+    }
+  }
+.login-box{
+  color: #666666;
+  font-size: rem(26);
+}
+.allPrice-box{
+  padding: rem(16) rem(32) 0 rem(32);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: rem(80);
+  border-bottom: #cccccc 1px solid;
+  margin-bottom: rem(16);
+}
+.otherParam-box{
+  height: rem(50);
+  padding: rem(16) rem(32) 0 rem(32);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-button {
+    margin: rem(30) 0 rem(50) 0;
+    color: #ffffff;
+    font-size: rem(38);
+    width: rem(250);
+    height: rem(90);
+    background-color: #d3a664;
+    border-radius: rem(8);
+    text-align: center;
+    line-height: rem(90);
+  }
+  
+.kaihu {
+    color: #436EEE;
+  }
+.operate-box{
+  background-color: #FFFFFF;
+  height: rem(120);
+  display: flex;
+  margin-bottom: rem(16);
+  justify-content: space-around;
+  }
+.operate-item{
+  width: rem(120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: rem;
+  &-text{
+    font-size: rem(22);
+  }
+}
+.buy-img{
+  width: rem(75);
+  height: rem(75);
+  background-image: url('../../assets/public/buy.png');
+  background-size: 100%;
+}
+.sell-img{
+  width: rem(75);
+  height: rem(75);
+  background-image: url('../../assets/public/sell.png');
+  background-size: 100%;
+}
+.record-img{
+  width: rem(75);
+  height: rem(75);
+  background-image: url('../../assets/public/record.png');
+  background-size: 100%;
+}
+
+.myFund-box{
+  // background-color: #FFFFFF;
+}
+.myFund-item{
+  background-color: #FFFFFF;
+  padding: rem(32);
+  margin-bottom: rem(16);
+  height: rem(180);
+  &-title{
+    font-size: rem(28);
+    margin-bottom: rem(16);
+  }
+  &-content{
+    display: flex;
+    justify-content:space-between;
+    font-size: rem(26);
+    &-price{
+      text-align: left;
+    }
+    &-dayincome{
+      text-align: center;
+    }
+    &-allincome{
+      text-align: right;
+    }
+    &-text{
+      margin-bottom: rem(20);
+      color: #999999;
+    }
+  }
+  
+}
+.nologin-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding-top: rem(100);
+}
+.nologin-img{
+  width: rem(200);
+  height: rem(200);
+  background-image: url(../../assets/public/nologin.png);
+  background-size: 100%;
+}
+.nologin-text{
+  font-size: rem(28);
+  margin-top: rem(36);
+  color: #666666;
+}

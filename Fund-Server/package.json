@@ -1,0 +1,22 @@
+{
+  "name": "fund-server",
+  "version": "1.0.0",
+  "description": "fundProject",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules ./src/app.mjs"
+  },
+  "author": "huangzijiao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto-js": "^4.0.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.3"
+  }
+}

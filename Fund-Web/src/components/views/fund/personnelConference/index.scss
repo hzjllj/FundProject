@@ -1,0 +1,15 @@
+@import '@/style/index.scss';
+
+.img-content {
+  margin: rem(50) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noData-img {
+  height: rem(250);
+  width: rem(400);
+  background-image: url('../../../../assets/public/noData.png');
+  background-size: 100%;
+}

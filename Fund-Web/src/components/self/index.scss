@@ -1,0 +1,136 @@
+@import '@/style/index.scss';
+
+.page {
+  margin-bottom: rem(90);
+}
+
+.head-box {
+  opacity: 0.8;
+  background-image: linear-gradient(-231deg, #F5CF83 0%, #B77A1B 100%);
+  height: rem(280);
+
+}
+
+.absolute-noscroll {
+  overflow-y: scroll;
+}
+
+.login-box {
+  z-index: 3;
+  background: #FFFFFF;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.08);
+  height: rem(350);
+  width: rem(600);
+  position: absolute;
+  top: rem(110);
+  left: rem(75);
+  border-radius: rem(8);
+}
+
+.noLogin-box {
+  color: #6c6c6c;
+  height: 100%;
+  font-size: rem(26);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: rem(60);
+}
+.safeout{
+  color: #4285f4;
+  margin-bottom: rem(30);
+}
+.userimg{
+  background-image: url('../../assets/public/boy.png');
+  height: rem(80);
+  width: rem(80);
+  background-size: 100%;
+  margin-bottom: rem(40);
+}
+.hasLogin-box{
+  color: #333333;
+  height: 100%;
+  font-size: rem(32);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: rem(60);
+}
+
+.login-button {
+  margin: rem(30) 0 rem(50) 0;
+  color: #ffffff;
+  font-size: rem(38);
+  width: rem(250);
+  height: rem(90);
+  background-color: #d3a664;
+  border-radius: rem(8);
+  text-align: center;
+  line-height: rem(90);
+}
+
+.kaihu {
+  color: #436EEE;
+}
+
+.body {
+  margin-top: rem(195);
+
+  &-bill-box {
+    margin-top: rem(16);
+    font-size: rem(32);
+    margin-bottom: rem(16);
+    display: flex;
+    padding-left: rem(32);
+    background-color: #fff;
+  }
+
+  &-bill {
+
+    height: rem(88);
+    line-height: rem(88);
+  }
+
+  &-newImg {
+    margin: rem(16) 0 0 rem(16);
+    background-image: url("../../assets/public/new.png");
+    background-size: 100%;
+    height: rem(40);
+    width: rem(50);
+  }
+}
+
+.function-box {
+  font-size: rem(32);
+  background-color: #fff;
+}
+
+.function-item {
+  padding: 0 rem(32) 0 rem(32);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px #eeeeee solid;
+
+  &-box {
+    width: rem(640);
+    height: rem(88);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-subtitle {
+    color: #9c9c9c;
+    font-size: rem(24);
+  }
+
+  &-img {
+    display: inline-block;
+    background-image: url("../../assets/public/rightjiantou9c9c9c.png");
+    height: rem(40);
+    width: rem(40);
+    background-size: 100%;
+  }
+
+}

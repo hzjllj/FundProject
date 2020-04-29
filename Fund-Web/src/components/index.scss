@@ -1,0 +1,92 @@
+@import "@/style/index.scss";
+
+.body-box {
+  // height: rem(1236);
+  // overflow-y: scroll;
+  background-color: $bgColor;
+}
+
+.body-box-scroll {
+  height: auto;
+}
+
+.footer-box {
+  bottom: rem(-3);
+  z-index: 99;
+  background-color: #fff;
+  height: rem(98);
+  width: 100%;
+  box-shadow: inset 0 1px 0 0 #dddddd;
+  position: fixed;
+}
+
+.bottom-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.title-box {
+  display: flex;
+  font-size: rem(22);
+  justify-content: center;
+  align-items: center;
+  color: #969696;
+  flex-direction: column;
+}
+
+.title-img {
+  height: rem(45);
+  width: rem(45);
+  margin-bottom: rem(5);
+}
+
+.self-img96 {
+  background-image: url('../assets/public/self96.png');
+  background-size: 100%;
+}
+.self-img {
+  background-image: url('../assets/public/self.png');
+  background-size: 100%;
+}
+
+.transaction-img96 {
+  background-image: url('../assets/public/transaction96.png');
+  background-size: 100%;
+}
+.transaction-img {
+  background-image: url('../assets/public/transaction.png');
+  background-size: 100%;
+}
+
+.quotes-img96 {
+  background-image: url('../assets/public/quotes96.png');
+  background-size: 100%;
+}
+.quotes-img {
+  background-image: url('../assets/public/quotes.png');
+  background-size: 100%;
+}
+.home-img96 {
+  background-image: url('../assets/public/home96.png');
+  background-size: 100%;
+}
+.home-img {
+  background-image: url('../assets/public/home.png');
+  background-size: 100%;
+}
+
+.information-img96 {
+  background-image: url('../assets/public/information96.png');
+  background-size: 100%;
+}
+.information-img {
+  background-image: url('../assets/public/information.png');
+  background-size: 100%;
+}
+

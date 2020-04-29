@@ -1,0 +1,220 @@
+@import '@/style/index.scss';
+
+.title-box {
+  height: rem(88);
+  align-content: center;
+
+  .shutDown-img {
+    margin: rem(32);
+    height: rem(32);
+    width: rem(32);
+  }
+
+  .title-text {
+    align-self: center;
+    margin: 0 0 0 rem(244);
+    color: #212121;
+    font-size: rem(36);
+  }
+}
+
+.notice-box {
+  height: rem(64);
+  background-color: #FFF1EB;
+  ;
+
+  .notice-icon-box {
+    height: rem(27);
+    margin: rem(16);
+    align-content: center;
+  }
+
+  .notice-line {
+    margin: 0 rem(8);
+    width: 1px;
+    height: rem(27);
+    line-height: rem(64);
+    border-right: 1px solid rgba(255, 98, 24, 0.3);
+  }
+
+  .notice-icon {
+    height: rem(27);
+    width: rem(30);
+    background-size: 100%;
+  }
+
+  .notice-text {
+    font-size: rem(24);
+    color: #EE5000;
+  }
+}
+
+.body-box {
+  height: rem(1000);
+
+  .logo-box {
+    height: rem(202);
+    text-align: center;
+
+    .logo-img {
+      width: rem(397);
+      margin: rem(30) rem(50) 0 0;
+    }
+  }
+
+  .login-box {
+    height: rem(578);
+
+    .login-item {
+      border-bottom: 1px rgba(216, 216, 216, 0.5) solid;
+      margin: auto rem(32);
+
+      .login-input {
+        width: rem(686);
+        font-size: rem(30);
+
+      }
+
+
+      .password-img {
+        width: rem(30);
+        height: rem(14);
+        margin: rem(50) auto;
+      }
+    }
+
+    .remainUser-box {
+      margin: auto rem(32);
+
+      .remainUser-checkbox {
+        margin: rem(32) 0 0 0;
+        width: rem(24);
+        height: rem(24);
+      }
+
+      .remain-text {
+        margin: rem(32) 0 rem(24) rem(8);
+        font-size: rem(24);
+        color: #969696;
+      }
+
+      .forget-password {
+        margin: rem(32) 0 0 rem(449);
+      }
+    }
+
+    .login-button-box {
+      margin: rem(16) rem(32);
+
+      .login-button {
+        height: rem(88);
+        background-color: #d3a664;
+        border-radius: rem(5);
+        font-size: rem(32);
+        color: #ffffff;
+        line-height: rem(88);
+        text-align: center;
+      }
+
+      .ready-login-button {
+        height: rem(88);
+        background-color: #F1E4D0;
+        border-radius: rem(5);
+        font-size: rem(32);
+        color: #ffffff;
+        line-height: rem(88);
+        text-align: center;
+      }
+    }
+
+    .register-button-box {
+      margin: rem(16) rem(32);
+
+      .register-button {
+        // margin:rem(16);
+        height: rem(88);
+        background-color: #ffffff;
+        border: 1px #d3a664 solid;
+        border-radius: rem(5);
+
+        .register-button-text {
+          font-size: rem(32);
+          color: #d3a664;
+          line-height: rem(88);
+          text-align: center;
+        }
+      }
+
+    }
+  }
+
+  .cooperation-box {
+    height: rem(250);
+
+    .cooperation-text {
+      font-size: rem(24);
+      font-weight: 600;
+      color: #969696;
+      margin: rem(25) 0 rem(24) rem(32);
+    }
+
+    .cooperation-item {
+      height: rem(126);
+      margin-left: rem(32);
+      width: rem(686);
+      text-align: center;
+
+      .cooperation-item-name {
+        color: #969696;
+        font-size: rem(20);
+      }
+
+      .cooperation-item-icon {
+        width: rem(64);
+        height: rem(64);
+      }
+    }
+  }
+}
+
+.footer-box {
+  // margin-left: rem(125);
+  margin-top: rem(30);
+
+  .other-login {
+    justify-content: center;
+    height: rem(63);
+
+    .line {
+      border-bottom: 1px rgba(216, 216, 216, 0.5) solid;
+      height: 1px;
+      width: rem(160);
+    }
+
+    .other-login-text {
+      font-size: rem(22);
+      color: #969696;
+      width: rem(180);
+      text-align: center;
+      margin: 0 rem(25);
+      position: relative;
+      bottom: rem(12);
+    }
+  }
+
+  .other-login-icon {
+    height: rem(64);
+    justify-content: center;
+
+    .other-login-icon-weixin {
+      width: rem(64);
+      height: rem(64);
+      margin-right: rem(50);
+    }
+
+    .other-login-icon-qq {
+      width: rem(64);
+      height: rem(64);
+    }
+  }
+}

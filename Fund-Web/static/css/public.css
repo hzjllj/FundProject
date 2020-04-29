@@ -1,0 +1,126 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+*:not(input, textarea) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+button {
+  font-family: PingFangSC-regular, -apple-system, sans-serif;
+}
+
+.app-scroller-page {
+  height: auto;
+  overflow: scroll;
+}
+
+.rise {
+  color: #ee5000
+}
+
+.decline {
+  color: #60cd00
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.column {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-center {
+  text-align: center;
+}
+
+/*动画*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active in below version 2.1.8 */
+  {
+  opacity: 0
+}
+
+.transform-up-enter-active,
+.transform-up-leave-active {
+  transition: transform .5s
+}
+
+.transform-up-enter,
+.transform-up-leave-to
+
+/* .fade-leave-active in below version 2.1.8 */
+  {
+  transform: translateY(100%);
+}
+
+.transform-down-enter-active,
+.transform-down-leave-active {
+  transition: transform .5s
+}
+
+.transform-down-enter,
+.transform-down-leave-to
+
+/* .fade-leave-active in below version 2.1.8 */
+  {
+  transform: translateY(-100%);
+  /*margin-top: -100%;*/
+}
+
+input::-webkit-input-placeholder {
+  color: #a3a3a3;
+  font-family: PingFangSC-regular, -apple-system, sans-serif;
+}
+
+input::-moz-placeholder {
+  color: #a3a3a3;
+  font-family: PingFangSC-regular, -apple-system, sans-serif;
+}
+
+input:-ms-input-placeholder {
+  color: #a3a3a3;
+  font-family: PingFangSC-regular, -apple-system, sans-serif;
+}

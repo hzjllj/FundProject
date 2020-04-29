@@ -1,0 +1,115 @@
+@import  '@/style/index.scss';
+
+.title-box{
+    height: rem(88);
+    border-bottom: 1px rgba(216,216,216,0.5) solid;
+    .back-img-box{
+        line-height: rem(88);
+    }
+    .back-img{
+        margin-left: rem(32);
+        width: rem(32);
+        height: rem(32);
+    }
+    .title-text{
+        margin-left: rem(250);
+        line-height: rem(88);
+        color: #212121;
+        font-size: rem(36);
+    }
+}
+.body-box{
+    margin: rem(32) 0;
+    .input-box{
+        margin: 0 rem(32);
+        border-bottom: 1px rgba(216,216,216,0.5) solid; 
+        margin-bottom:rem(57) ;
+        .number-input{  
+            height: rem(112);
+            font-size: rem(30);
+            width: rem(686);
+        }
+        .input-remind{
+            font-size: rem(22);
+            color: #B8B8B8;
+            position: absolute;
+            top:  rem(130);
+        }
+        .sentNum{
+            color: #5196FF;
+            height:rem(24) ;
+            font-size: rem(24);
+            border-left:1px rgba(216,216,216,0.5) solid; 
+            padding-left:rem(20);
+            position: absolute;
+            right: rem(32);
+            top: rem(150);
+        }
+    }
+    .verification-box{
+        height:rem(300) ;
+        .expandNum{
+            width:rem(750);
+            height: rem(110);
+            background-color: #FFEBE1;
+            color: #EE5000;
+            font-size: rem(60);
+            line-height: rem(110);
+            text-align: center;
+        }
+        .beSent{
+            margin: 0 rem(32);
+            .beSent-num{
+                // margin: rem(57) 0;
+                font-size: rem(30);
+                color: #212121;
+                margin-bottom: rem(16);
+            }
+            .beSent-text{
+                font-size: rem(24);
+                color: #666666;
+                margin-bottom: rem(40);
+            }
+            .beSent-input-box{
+                font-size: rem(30);
+                color: #212121;
+                word-spacing:  rem(80);
+                .beSent-input{
+                    text-align: center;
+                    margin-right:rem(16) ;
+                    border: 1px rgba(216,216,216,0.5) solid; 
+                    width:rem(80);
+                    height: rem(80);
+                    line-height: rem(80);
+                }   
+            }
+            .hidden-input{
+                z-index: 10;
+                position: relative;
+                top:-40px;
+                width:rem(560);
+                height: rem(80);
+                opacity: 0;
+            }
+        }
+    }
+    .readyNextButton{
+        margin: 0 rem(32);
+        height: rem(88);
+        background-color: #F1E4D0 ;
+        color: #fff;
+        font-size: rem(32);
+        line-height:  rem(88);
+        text-align: center;
+    }
+    .NextButton{
+        margin: 0 rem(32);
+        height: rem(88);
+        background-color: #D3A664 ;
+        color: #fff;
+        font-size: rem(32);
+        line-height:  rem(88);
+        text-align: center;
+    }
+
+}

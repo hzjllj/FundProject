@@ -1,0 +1,129 @@
+@import "@/style/index.scss";
+.page{
+    height: 100%;
+    display: flex;flex-direction: column;
+}
+.title-box{
+    height: rem(88);
+    border-bottom: 1px rgba(216,216,216,0.5) solid;
+    .back-img-box{
+        line-height: rem(88);
+    }
+    .back-img{
+        margin-left: rem(32);
+        width: rem(32);
+        height: rem(32);
+    }
+    .title-text{
+        margin-left: rem(30);
+        line-height: rem(88);
+        color: #212121;
+        font-size: rem(36);
+    }
+}
+.body-box{
+    background-color: $bgColor;
+    flex: 1;
+}
+.fundNeme{
+    height: rem(80);
+    background-color: #ffffff;
+    margin-top: rem(16);
+    text-align: center;
+    line-height: rem(80);
+    font-size: rem(36);
+}
+.transaction{
+    margin-top: rem(16);
+    padding: 0 rem(20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: rem(30);
+    background-color: #ffffff;
+    height: rem(80);
+    &-rule{
+        color: #5196FF;
+        font-size: rem(26);
+    }
+    &-pay{
+        font-size: rem(24);
+    }
+    .maxpay{
+        color: #999999;
+        text-align: right;
+    }
+}
+.price{
+    padding: 0 rem(16) rem(20) rem(16);
+    height: rem(120);
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    border-bottom: 1px rgba(216,216,216,0.5) solid;
+    &-icon{
+        font-size: rem(54);
+        line-height: rem(80);
+        height: rem(80);
+    }
+    &-num{
+        font-size: rem(50);
+        height: rem(100);
+        width: rem(500);
+    }
+}
+.statement{
+    font-size: rem(26);
+    color: #999999;
+    height: rem(100);
+    padding: rem(20);
+    background-color: #ffffff;
+}
+.buy-button {
+    height: rem(88);
+    background-color: #d3a664;
+    border-radius: rem(5);
+    font-size: rem(32);
+    color: #ffffff;
+    line-height: rem(88);
+    text-align: center;
+    margin: rem(36) rem(22) 0 rem(22);
+}
+
+.ready-buy-button {
+    height: rem(88);
+    background-color: #F1E4D0;
+    border-radius: rem(5);
+    font-size: rem(32);
+    color: #ffffff;
+    line-height: rem(88);
+    text-align: center;
+    margin: rem(36) rem(22) 0 rem(22);
+}
+.permit{
+    margin: rem(50) rem(80) 0 rem(80);
+    font-size: rem(24);
+    color: #999999;
+    text-align: center;
+    line-height: rem(40);
+}
+.blueText{
+    color: blue;
+}
+/* WebKit browsers  */
+input::-webkit-input-placeholder {
+   /* 字体大小直接写样式即可 */
+    font-size: rem(28);
+}
+/*  Mozilla Firefox 4-18使用伪类 */
+input:-moz-placeholder {
+    font-size: rem(28);
+}
+/* Mozilla Firefox 19+ 使用伪元素  */
+input::-moz-placeholder { 
+    font-size: rem(28);
+}
+/* IE10使用伪类 */
+input:-ms-input-placeholder {
+    font-size: rem(28);
+}

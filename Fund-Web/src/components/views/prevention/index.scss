@@ -1,0 +1,19 @@
+@import "@/style/index.scss";
+.bg-img{
+    background-image: url("../../../assets/home/prevention.png");
+    width: rem(750);
+    height: rem(1334);
+    background-size: 100%;
+}
+.back-img{
+    left: 35%;
+    position: absolute;
+    bottom: 15%;
+    width: rem(200);
+    height: rem(70);
+    color: #ffffff;
+    border-radius: rem(20);
+    border: #ffffff 1px solid;
+    text-align: center;
+    line-height: rem(70);
+}

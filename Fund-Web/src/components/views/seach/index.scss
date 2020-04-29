@@ -1,0 +1,95 @@
+@import '@/style/index.scss';
+
+
+.title-box {
+  background-color: #fff;
+  height: rem(88);
+  border-bottom: 1px rgba(216, 216, 216, 0.5) solid;
+
+  .back-img-box {
+    line-height: rem(88);
+  }
+
+  .back-img {
+    margin-left: rem(32);
+    width: rem(32);
+    height: rem(32);
+  }
+
+  .title-text {
+    margin-left: rem(250);
+    line-height: rem(88);
+    color: #212121;
+    font-size: rem(36);
+  }
+}
+
+.hotFund {
+  padding-left: rem(32);
+  margin-top: rem(120);
+
+  &-title {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #333333;
+  }
+
+  &-box {
+    display: flex;
+    margin-top: rem(45);
+    flex-wrap: wrap;
+  }
+
+  &-item {
+    justify-content: center;
+    font-size: rem(28);
+    display: flex;
+    // align-items: center;
+    height: rem(120);
+    width: rem(228);
+    flex-direction: column;
+    margin-left: rem(80);
+
+    &-varietyFall {
+      color: #60cd00;
+      margin-top: rem(16);
+      font-size: rem(28);
+      display: flex;
+    }
+
+    &-varietyRise {
+      color: #ee5000;
+      margin-top: rem(16);
+      font-size: rem(28);
+      display: flex;
+    }
+
+    &-name {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    &-price {
+      width: rem(114);
+      text-align: center;
+    }
+  }
+}
+
+.hotImg {
+  margin-right: rem(16);
+  background-image: url("../../../assets/public/hot.png");
+  background-size: 100%;
+  width: rem(50);
+  height: rem(50);
+}
+
+.seachImg {
+  background-color: #ffffff;
+}
+
+.inline-input {
+  width: rem(750);
+}

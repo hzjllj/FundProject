@@ -1,0 +1,106 @@
+@import "@/style/index.scss";
+
+.seach-box {  
+  border-bottom: #eeeeee 1px solid;
+  background-color: #ffffff;
+  padding: rem(20) rem(16);
+  width: 100%;
+  display: flex;
+  z-index: 10;
+}
+
+.carousel-img {
+  background-size: 100%;
+  height: rem(300);
+}
+
+.seach-img {
+  height: rem(60);
+  width: rem(60);
+  background-image: url("../../assets/public/seach.png");
+  background-size: 100%;
+}
+
+.seach-line {
+  height: rem(60);
+  width: rem(10);
+  border-right: 1px #e6e6e6 solid;
+  margin-right: rem(14);
+}
+
+.customerService-img {
+  height: rem(54);
+  width: rem(54);
+  background-image: url("../../assets/public/customerService.png");
+  background-size: 100%;
+}
+
+.message-img {
+  margin-left: rem(12);
+  height: rem(60);
+  width: rem(60);
+  background-image: url("../../assets/public/message.png");
+  background-size: 100%;
+}
+
+.seach-placeholder {
+  margin-left: rem(10);
+  height: rem(60);
+  width: rem(500);
+  border: 1px #e6e6e6 solid;
+  border-radius: rem(10);
+  color: #999999;
+  font-size: rem(24);
+  text-align: center;
+  line-height: rem(60);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.body-box {
+  margin-bottom: rem(90);
+  background-color: #ffffff;
+}
+
+.fundIndex-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fundIndex-item {
+  margin-right: rem(28);
+  height: rem(200);
+  width: rem(250);
+  border-radius: rem(10);
+  font-size: rem(30);
+  padding: rem(24) rem(16);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  div {
+    margin-bottom: rem(24);
+  }
+}
+
+.fundname {
+  padding-left: rem(16);
+  font-size: rem(24);
+  line-height: rem(28);
+}
+
+.fundcode {
+  margin-top: rem(5);
+  font-size: rem(18);
+  color: #999999;
+  line-height: rem(22);
+  padding-left: rem(16);
+}
+
+.fundrate {
+  font-size: rem(20);
+  padding-left: rem(8);
+}
+
+.table-body {
+  padding: 0 rem(16);
+}

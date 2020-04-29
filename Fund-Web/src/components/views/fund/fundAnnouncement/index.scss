@@ -1,0 +1,19 @@
+@import  '@/style/index.scss';
+.announcement-body{
+    background-color: #fff;
+    font-size: rem(28);
+    font-family: 'fPingFangSC-Regular';
+}
+.announcement-box{
+    margin: 0  rem(32);
+    line-height: rem(44);
+    height:auto;
+    color: #666666;
+    border-bottom:  1px rgba(216,216,216,0.5) solid;
+    padding: rem(32) 0 ;
+    &-date{
+        color: #969696;
+        font-size: rem(28);
+        margin-top:rem(16) ;
+    }
+}

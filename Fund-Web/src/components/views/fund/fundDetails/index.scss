@@ -1,0 +1,89 @@
+@import '@/style/index.scss';
+
+.fund-introduction {
+  height: rem(537);
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: rem(16);
+
+
+  &-box {
+    margin: 0 rem(32);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-label {
+    color: #969696;
+    font-size: rem(24);
+
+  }
+
+  &-content {
+    float: right;
+    color: #666666;
+    font-size: rem(28);
+  }
+}
+
+.fund-manager {
+
+  min-height: auto;
+  background-color: #fff;
+  margin-bottom: rem(16);
+
+  .managerName {
+    color: #212121;
+    font-size: rem(32);
+    line-height: rem(44);
+  }
+
+  .managerDate {
+    color: #969696;
+    font-size: rem(24);
+    line-height: rem(33);
+  }
+
+  &-data {
+    padding: rem(32);
+    box-sizing: border-box;
+  }
+
+  &-img {
+    margin: 0 rem(32) rem(32) 0;
+    background-image: url('../../../../assets/public/boy.png');
+    height: rem(80);
+    width: rem(80);
+    background-size: 100%;
+  }
+
+  &-content {
+    font-size: rem(28);
+    color: #999999;
+  }
+}
+
+.risk-return {
+  background-color: #fff;
+
+  &-box {
+    padding: rem(32);
+    box-sizing: border-box;
+  }
+
+  &-text {
+    color: #999999;
+    font-size: rem(28);
+    line-height: rem(44);
+  }
+}
+
+.data-title {
+  line-height: rem(88);
+  margin: 0 rem(32);
+  color: #212121;
+  font-size: rem(32);
+  border-bottom: 1px rgba(216, 216, 216, 0.5) solid;
+}

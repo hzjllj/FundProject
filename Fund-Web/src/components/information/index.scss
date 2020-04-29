@@ -1,0 +1,132 @@
+@import "@/style/index.scss";
+
+.page {
+  overflow-y: scroll;
+  margin-bottom: rem(90);
+}
+
+.seach-box {
+  background-color: #ffffff;
+  padding: rem(20) rem(16);
+  width: 100%;
+  display: flex;
+  z-index: 10;
+}
+
+.seach-img {
+  height: rem(60);
+  width: rem(60);
+  background-image: url("../../assets/public/seach.png");
+  background-size: 100%;
+}
+
+.seach-line {
+  height: rem(60);
+  width: rem(10);
+  border-right: 1px #e6e6e6 solid;
+  margin-right: rem(14);
+}
+
+.customerService-img {
+  height: rem(54);
+  width: rem(54);
+  background-image: url("../../assets/public/customerService.png");
+  background-size: 100%;
+}
+
+.message-img {
+  margin-left: rem(12);
+  height: rem(60);
+  width: rem(60);
+  background-image: url("../../assets/public/message.png");
+  background-size: 100%;
+}
+
+.seach-placeholder {
+  margin-left: rem(10);
+  height: rem(60);
+  width: rem(500);
+  border: 1px #e6e6e6 solid;
+  border-radius: rem(10);
+  color: #999999;
+  font-size: rem(24);
+  text-align: center;
+  line-height: rem(60);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.carousel-img {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: rem(300);
+}
+
+.informationHot {
+  background-color: #ffffff;
+  padding-top: rem(32);
+
+  &-img {
+    margin: rem(10) 0 0 rem(30);
+    height: rem(110);
+    width: rem(110);
+    background-size: 100%;
+  }
+
+  &-more {
+    background-image: url('../../assets/public/rightjiantou.png');
+    height: rem(40);
+    width: rem(40);
+    background-size: 100%;
+    margin-left: rem(520);
+  }
+
+  .title-padding {
+    padding-left: rem(32);
+  }
+
+  &-item {
+    display: flex;
+    height: rem(150);
+    border-bottom: 1px rgba(216, 216, 216, 0.4) solid;
+    margin-bottom: rem(32);
+    padding: 0 rem(32);
+  }
+
+  &-title {
+    white-space: normal;
+    word-break: break-all;
+    height: rem(80);
+    width: rem(530);
+    font-size: rem(32);
+    overflow: hidden;
+  }
+
+  &-subtitle {
+    display: flex;
+    color: #999999;
+    font-size: rem(24);
+    margin-top: rem(20);
+
+    &-line {
+      width: rem(16);
+      height: rem(24);
+      border-right: 1px rgb(216, 216, 216) solid;
+      margin-right: rem(16);
+    }
+
+    &-provenance {
+      margin-right: rem(16);
+    }
+
+  }
+
+  &-lookmore {
+    font-size: rem(26);
+    color: #436EEE;
+    text-align: center;
+    line-height: rem(32);
+    height: rem(32);
+    position: relative;
+    top: rem(-20)
+  }
+}

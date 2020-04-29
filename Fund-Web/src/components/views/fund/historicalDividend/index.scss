@@ -1,0 +1,20 @@
+@import '@/style/index.scss';
+
+.body-box {
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #666666;
+}
+
+.dividend-box {
+  background-color: #fff;
+  font-size: rem(24);
+  padding: rem(16) rem(32);
+  border: 1px #e6e6e6 solid;
+}
+
+.dividend-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
