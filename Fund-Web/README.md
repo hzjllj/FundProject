@@ -32,7 +32,7 @@ PS
 
 ## 界面图片
 
-![主界面](https://github.com/hzjllj/FundProject/Fund-Web/doc/首页-1.png "主界面")
+![主界面](https://github.com/hzjllj/FundProject/Fund-Web/raw/master/doc/首页-1.png "主界面")
 ---
 
 ## Build Setup
