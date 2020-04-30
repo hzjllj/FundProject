@@ -32,7 +32,37 @@ PS
 
 ## 界面图片
 
-![主界面](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/%E4%B8%AA%E4%BA%BA%E9%A1%B5.png "主界面")
+![登录页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/登录页面.png "登录页面")
+
+![注册](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/注册1.png "注册1")
+
+![注册](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/注册2.png "注册2")
+
+![注册](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/注册3.png "注册3")
+
+![个人页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/个人页.png "个人页")
+
+![首页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/首页1.png "首页1")
+
+![首页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/首页2.png "首页2")
+
+![资产页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/资产页-未登录.png "资产页-未登录")
+
+![资产页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/资产页-登录.png "资产页-登录")
+
+![资讯页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/资讯页.png "资讯页")
+
+![自选页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/自选页.png "自选页")
+
+![搜索页](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/搜索页.png "搜索页")
+
+![基金详情](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/基金详情1.png "基金详情1")
+
+![基金详情](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/基金详情2.png "基金详情2")
+
+![交易费率](https://github.com/hzjllj/FundProject/raw/master/Fund-Web/doc/交易费率.png "交易费率")
+
+
 ---
 
 ## Build Setup
